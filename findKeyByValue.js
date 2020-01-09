@@ -18,10 +18,6 @@ const findKeyByValue = function (object, tvShow){
   // use a for of loop with object.keys 
 
 for (const key of Object.keys(object)) {
-  //THis prints out the keys in an array
-  //console.log(Object.keys(object));
-  // this prints out the key value like i = 0 and then increments by one
-  //console.log(key)
   
   // we are comparing the tv shows so object[key] is actually giving you object.key  object.sci_fi which equals the expanse  and that matches up with the tv show 
   if(object[key] === tvShow){
