@@ -25,13 +25,16 @@ const assertArraysEqual = function (actual, expected){
 const takeUntil = function(array, callback){
 
   const output = [];
-  let check= false;
+  //let check= false;
   for (let element of array){
 
-    if(!(callback(element)) && check === false ){
+    let matches = callback(element)
+
+    if (!matches) {
       output.push(element);
     } else {
-      check = true;
+      //check = true;
+      return output
     }
 }
 return output
