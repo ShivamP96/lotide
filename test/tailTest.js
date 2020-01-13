@@ -7,5 +7,4 @@ describe('#tail', () => {
   it('should return [2, 3, 4]', () => {
     assert.strictEqual(tail(words).length, 3)
   });
-})
-
+});
