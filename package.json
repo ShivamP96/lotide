@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@drpaddle/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide a simpler version of lodash",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,10 +19,16 @@
     "type": "git",
     "url": "git+https://github.com/DrPaddle/lotide.git"
   },
-  "author": "",
+  "author": "Shivam Patel <patelsd96@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DrPaddle/lotide/issues"
   },
+  "contributors":[
+    {"name": "stoneface-vimes"},
+    {"name": "user-test123"},
+    {"name": "flave19"},
+    {"name": "CassandraLin"}
+  ],
   "homepage": "https://github.com/DrPaddle/lotide#readme"
 }
